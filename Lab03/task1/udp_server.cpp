@@ -71,6 +71,6 @@ int main() {
 
     sendto(sockfd, msg.c_str(), msg.length(), 0, (const struct sockaddr *)&cliaddr, len);
      cout << "Result Returned to Client!" <<  endl;
-
+     
     return 0;
 }
